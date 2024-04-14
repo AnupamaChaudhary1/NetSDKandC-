@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System;
+
 //Console.WriteLine("Hello, World!");
 //Student s1= new();
 //Student s2= new();
@@ -10,10 +12,10 @@
 //s1.dob=new DateTime(2000,3,5);
 //Console.WriteLine(s1.name+ " " +s1.address +" "+  s1.roll+" "+ s1.dob);
 //class Student{
-   // public string name;
-    //public string address;
-    //public int roll;
-    //public DateTime dob;
+// public string name;
+//public string address;
+//public int roll;
+//public DateTime dob;
 //}
 
 // Animal n1=new Animal();
@@ -46,9 +48,19 @@
 // Console.WriteLine("Square1 - Area: " + sa);
 
 
-Circle c1 = new Circle(15.2);
-double perimeter = c1.GetPerimeter();
-double area = c1.GetArea();
-Console.WriteLine("Circle- Perimeter: " + perimeter);
-Console.WriteLine("Circle - Area: " + area);
+// Circle c1 = new Circle(15.2);
+// double perimeter = c1.GetPerimeter();
+// double area = c1.GetArea();
+// Console.WriteLine("Circle- Perimeter: " + perimeter);
+// Console.WriteLine("Circle - Area: " + area);
 
+// var sphere1=new Sphere(32.2);
+// var ssa=sphere1.GetArea();
+// sphere1.PrintSphereInfo();
+
+var fileio=new FileIO();
+fileio.CreateFile();
+
+// var fileio = new FileIO();
+// fileio.CreateFileWithinFolder();
+// Console.WriteLine("new folder is created here.");
