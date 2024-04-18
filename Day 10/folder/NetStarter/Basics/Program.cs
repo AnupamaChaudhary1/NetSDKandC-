@@ -1,22 +1,25 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
-//Console.WriteLine("Hello, World!");
-//Student s1= new();
-//Student s2= new();
-//Student s3= new();
-//Student s4= new();
-//s1.name="Aaa";
-//s1.address="bbb";
-//s1.roll=1;
-//s1.dob=new DateTime(2000,3,5);
-//Console.WriteLine(s1.name+ " " +s1.address +" "+  s1.roll+" "+ s1.dob);
-//class Student{
-// public string name;
-//public string address;
-//public int roll;
-//public DateTime dob;
-//}
+Console.WriteLine("Hello, World!");
+Student s1= new();
+Student s2= new();
+Student s3= new();
+Student s4= new();
+s1.name="Aaa";
+s1.address="bbb";
+s1.roll=1;
+s1.dob=new DateTime(2000,3,5);
+Console.WriteLine(s1.name+ " " +s1.address +" "+  s1.roll+" "+ s1.dob);
+class Student{
+public string name;
+public string address;
+public int roll;
+public DateTime dob;
+}
+// Student.PrintStudentType();
+// // Wait for user input before closing the console window
+// Console.ReadLine();
 
 // Animal n1=new Animal();
 // Animal n2=new Animal();
@@ -65,8 +68,27 @@
 // fileio.CreateFileWithinFolder();
 // Console.WriteLine("new folder is created here.");
 
-string filePath = @"D:\NetSDKandC-\Day 10\folder\NetStarter\Basics\Peoplemanagement\People.csv";
+// string filePath = @"D:\NetSDKandC-\Day 10\folder\NetStarter\Basics\Peoplemanagement\People.csv";
 
- CSVParser csvParser = new CSVParser();
- csvParser.Parse(filePath);
- csvParser.PrintNames();
+// CSVParser csvParser = new CSVParser();
+// csvParser.Parse(filePath);
+// csvParser.PrintNames();
+
+
+
+// namespace MyNamespace
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             // Instantiate the Generics class and call the Test method
+//             Generics generics = new Generics();
+//             generics.Test();
+
+//             // Wait for user input before closing the console window
+//             Console.ReadLine();
+//         }
+//     }
+// }
+
