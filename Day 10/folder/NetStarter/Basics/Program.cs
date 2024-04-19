@@ -1,22 +1,22 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
-Console.WriteLine("Hello, World!");
-Student s1= new();
-Student s2= new();
-Student s3= new();
-Student s4= new();
-s1.name="Aaa";
-s1.address="bbb";
-s1.roll=1;
-s1.dob=new DateTime(2000,3,5);
-Console.WriteLine(s1.name+ " " +s1.address +" "+  s1.roll+" "+ s1.dob);
-class Student{
-public string name;
-public string address;
-public int roll;
-public DateTime dob;
-}
+// Console.WriteLine("Hello, World!");
+// Student s1= new();
+// Student s2= new();
+// Student s3= new();
+// Student s4= new();
+// s1.name="Aaa";
+// s1.address="bbb";
+// s1.roll=1;
+// s1.dob=new DateTime(2000,3,5);
+// Console.WriteLine(s1.name+ " " +s1.address +" "+  s1.roll+" "+ s1.dob);
+// class Student{
+// public string name;
+// public string address;
+// public int roll;
+// public DateTime dob;
+// }
 // Student.PrintStudentType();
 // // Wait for user input before closing the console window
 // Console.ReadLine();
@@ -91,4 +91,17 @@ public DateTime dob;
 //         }
 //     }
 // }
+
+int[] ages=[23,1,5,67,98,56,78];
+//Find square of all numbers in ages collection
+//imparative
+List<int> squares=[];
+foreach(var age in ages)
+{
+    var squares=age*age;
+    squares.Add(square);
+}
+
+//Declarative
+var squares=ages.Select(ages=> ages*age);
 
