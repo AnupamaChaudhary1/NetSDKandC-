@@ -33,9 +33,11 @@ class LINQ
         .Where(ages => ages % 2 == 0) // Filter even numbers
         .Select(ages => ages * ages * ages);
 
-        //find students who live in dang
+        //find students who live in dang and sort the result by names
 
-        var inDang = students.Where(students => students.address == "Dang");
+        var inDang = students
+        .Where(students => students.address == "Dang")
+        .OrderBy(students => students.Name);
 
     }
 }
