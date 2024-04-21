@@ -92,16 +92,24 @@
 //     }
 // }
 
-int[] ages=[23,1,5,67,98,56,78];
-//Find square of all numbers in ages collection
-//imparative
-List<int> squares=[];
-foreach(var age in ages)
-{
-    var squares=age*age;
-    squares.Add(square);
-}
+//list and declerations
+// int[] ages=[23,1,5,67,98,56,78];
+// //Find square of all numbers in ages collection
+// //imparative
+// List<int> squares=[];
+// foreach(var age in ages)
+// {
+//     var squares=age*age;
+//     squares.Add(square);
+// }
 
-//Declarative
-var squares=ages.Select(ages=> ages*age);
+// //Declarative
+// var squares=ages.Select(ages=> ages*age);
+
+//linq
+// LINQ linq = new LINQ();
+// linq.LearnLinq();
+
+// ParallelAsync parallelAsync = new();
+// parallelAsync.ProcessNumbers();
 
