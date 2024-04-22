@@ -110,6 +110,11 @@
 // LINQ linq = new LINQ();
 // linq.LearnLinq();
 
-// ParallelAsync parallelAsync = new();
-// parallelAsync.ProcessNumbers();
+ParallelAsync parallelAsync = new();
+parallelAsync.ProcessNumbers();
+
+// await parallelAsync.IgniteStove();
+// await parallelAsync.GrindMasala();
+// await parallelAsync.PutkeatleyOnWithWater();
+// await parallelAsync.IgniteStove();
 

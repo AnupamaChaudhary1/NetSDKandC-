@@ -35,4 +35,34 @@ namespace MyNamespace
             Console.ReadLine();
         }
     }
+    // making tea
+    // public async Task IgniteStove()
+    // {
+    //     await Task.Delay(5000);
+    // }
+    // public async Task PutkeatleyOnWithWater()
+    // {
+    //      await Task.Delay(5000);
+    // }
+    // public async Task GrindMasala()
+    // {
+    //      await Task.Delay(5000);
+    // }
+    // public void PourChiyapatti()
+    // {
+
+    // }
+    // public void PourSugar()
+    // {
+
+    // }
+    // public void PourMasala()
+    // {
+
+    // }
+    // public void GrindMasala()
+
+    // {
+
+    // }
 }
