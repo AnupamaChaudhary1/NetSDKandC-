@@ -1,7 +1,8 @@
 class CsvParser
 {
     List<Person> people = [];
-    public void Parse()
+    // public void Parse()
+    public List<Person> Parse()
     {
         // Read file
         string filePath = @"D:\NetSDKandC-\Assignment1\PeopleManagement\data\People.csv";
@@ -26,6 +27,7 @@ class CsvParser
 
             people.Add(person);
         }
+        return people;
     }
 
     public void PrintNames()
