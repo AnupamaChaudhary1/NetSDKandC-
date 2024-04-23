@@ -2,13 +2,13 @@
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 7", "Day 7", "{E33C9563-A5F4-496E-A3A6-34E152638F74}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 10", "Day 10", "{E33C9563-A5F4-496E-A3A6-34E152638F74}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8", "8", "{334A0029-9426-4EF8-BA24-0C0253DBE302}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "folder", "folder", "{334A0029-9426-4EF8-BA24-0C0253DBE302}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetStarter", "NetStarter", "{1D4D2D7D-9AC1-4A58-A8F5-C44DA40330C2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Day 7\8\NetStarter\Basics\Basics.csproj", "{75972004-4A69-4EAE-8669-B3AD6F5631C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Day 10\folder\NetStarter\Basics\Basics.csproj", "{75972004-4A69-4EAE-8669-B3AD6F5631C2}"
 EndProject
 Global
     GlobalSection(SolutionConfigurationPlatforms) = preSolution

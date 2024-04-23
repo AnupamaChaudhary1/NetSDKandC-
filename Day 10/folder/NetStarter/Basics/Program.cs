@@ -110,11 +110,32 @@
 // LINQ linq = new LINQ();
 // linq.LearnLinq();
 
-ParallelAsync parallelAsync = new();
-parallelAsync.ProcessNumbers();
+// ParallelAsync parallelAsync = new();
+// parallelAsync.ProcessNumbers();
 
 // await parallelAsync.IgniteStove();
 // await parallelAsync.GrindMasala();
 // await parallelAsync.PutkeatleyOnWithWater();
 // await parallelAsync.IgniteStove();
 
+
+using NetStarter.Basics.DataAccess;
+
+BasicDbContext Db = new();
+var teacher1 = new Teacher
+{
+    Name = "Anupama",
+    Address = "Dang",
+    Gender = 'F',
+    Qualification = "Graduate",
+    dob = new DateTime(2000, 12, 16)
+};
+// Db.Teachers.Add(teacher1);
+// Db.SaveChanges();
+//var teachers=Db.Teachers.ToList();
+//list all female teachers from dang
+var teachers = Db.Teachers.Where(teacher => teacher.Gender == 'F' && teacher.Address == "Dang").ToList();
+foreach (var teacher in teachers)
+{
+    Console.WriteLine($"Name: {teacher.Name}, Dob: {teacher.dob}");
+}

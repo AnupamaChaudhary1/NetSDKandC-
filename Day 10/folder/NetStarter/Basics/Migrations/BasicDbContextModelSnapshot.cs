@@ -29,6 +29,9 @@ namespace Basics.Migrations
                     b.Property<char>("Gender")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Qualification")
                         .HasColumnType("TEXT");
 

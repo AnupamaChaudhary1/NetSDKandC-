@@ -11,7 +11,7 @@ using NetStarter.Basics.DataAccess;
 namespace Basics.Migrations
 {
     [DbContext(typeof(BasicDbContext))]
-    [Migration("20240422051650_DbCreate")]
+    [Migration("20240423060825_DbCreate")]
     partial class DbCreate
     {
         /// <inheritdoc />
@@ -30,6 +30,9 @@ namespace Basics.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<char>("Gender")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Qualification")

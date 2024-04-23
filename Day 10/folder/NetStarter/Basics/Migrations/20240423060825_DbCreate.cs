@@ -17,6 +17,7 @@ namespace Basics.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
+                    Name = table.Column<string>(type: "TEXT", nullable: true),
                     Address = table.Column<string>(type: "TEXT", nullable: true),
                     Qualification = table.Column<string>(type: "TEXT", nullable: true),
                     Gender = table.Column<char>(type: "TEXT", nullable: false),
